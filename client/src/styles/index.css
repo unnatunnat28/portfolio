@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #474af0;
+  --primary-dark: #3a3bb8;
+  --secondary: #333;
+  --text: #222;
+  --text-light: #666;
+  --bg: #ffffff;
+  --bg-light: #f8f9ff;
+  --bg-dark: #1a1a1a;
+  --border: #e0e0e0;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --accent: #10b981;
+}
+
+[data-theme="dark"] {
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --secondary: #f0f0f0;
+  --text: #f0f0f0;
+  --text-light: #b0b0b0;
+  --bg: #1a1a1a;
+  --bg-light: #2d2d2d;
+  --bg-dark: #0f0f0f;
+  --border: #404040;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --accent: #10b981;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+  background-color: var(--bg);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.App {
+  width: 100%;
+  background-color: var(--bg);
+  transition: background-color 0.3s ease;
+}
+
+#back-to-top {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+.active-reveal {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-in-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.slide-in-right {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="webGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#474af0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Browser window -->
+  <rect x="30" y="40" width="140" height="120" rx="10" fill="none" stroke="url(#webGrad)" stroke-width="3"/>
+  
+  <!-- Title bar -->
+  <rect x="30" y="40" width="140" height="25" rx="10" fill="url(#webGrad)" opacity="0.2"/>
+  <line x1="40" y1="50" x2="160" y2="50" stroke="url(#webGrad)" stroke-width="1.5"/>
+  
+  <!-- Browser buttons -->
+  <circle cx="45" cy="51" r="3" fill="url(#webGrad)"/>
+  <circle cx="55" cy="51" r="3" fill="url(#webGrad)"/>
+  <circle cx="65" cy="51" r="3" fill="url(#webGrad)"/>
+  
+  <!-- Content lines (representing web design) -->
+  <line x1="40" y1="70" x2="150" y2="70" stroke="url(#webGrad)" stroke-width="2"/>
+  <line x1="40" y1="80" x2="140" y2="80" stroke="url(#webGrad)" stroke-width="2" opacity="0.7"/>
+  <line x1="40" y1="90" x2="145" y2="90" stroke="url(#webGrad)" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Design boxes -->
+  <rect x="40" y="105" width="25" height="45" rx="3" fill="url(#webGrad)" opacity="0.3"/>
+  <rect x="75" y="105" width="25" height="45" rx="3" fill="url(#webGrad)" opacity="0.4"/>
+  <rect x="110" y="105" width="25" height="45" rx="3" fill="url(#webGrad)" opacity="0.5"/>
+  
+  <!-- Cursor/pointer -->
+  <polygon points="160,60 165,75 155,75" fill="url(#webGrad)"/>
+</svg>

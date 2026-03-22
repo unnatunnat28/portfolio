@@ -1,0 +1,26 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="seoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#474af0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Search icon (magnifying glass) -->
+  <circle cx="80" cy="80" r="35" fill="none" stroke="url(#seoGrad)" stroke-width="3"/>
+  <line x1="105" y1="105" x2="140" y2="140" stroke="url(#seoGrad)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Up arrow (growth/ranking) inside circle -->
+  <path d="M 80 100 L 80 60" stroke="url(#seoGrad)" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  <polygon points="80,55 75,65 85,65" fill="url(#seoGrad)" opacity="0.7"/>
+  
+  <!-- Stats bars representing SEO metrics -->
+  <rect x="50" y="130" width="8" height="30" rx="2" fill="url(#seoGrad)" opacity="0.4"/>
+  <rect x="65" y="120" width="8" height="40" rx="2" fill="url(#seoGrad)" opacity="0.6"/>
+  <rect x="80" y="110" width="8" height="50" rx="2" fill="url(#seoGrad)" opacity="0.8"/>
+  <rect x="95" y="120" width="8" height="40" rx="2" fill="url(#seoGrad)" opacity="0.6"/>
+  <rect x="110" y="130" width="8" height="30" rx="2" fill="url(#seoGrad)" opacity="0.4"/>
+  
+  <!-- Decorative star -->
+  <polygon points="150,40 155,50 165,50 157,56 160,66 150,60 140,66 143,56 135,50 145,50" fill="url(#seoGrad)" opacity="0.5"/>
+</svg>
