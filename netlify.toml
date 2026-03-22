@@ -24,7 +24,7 @@
 
 # Increase timeout for API calls
 [functions]
-  timeout = "30s"
+  timeout = 10
 
 # Headers for security
 [[headers]]
